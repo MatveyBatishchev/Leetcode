@@ -1,13 +1,11 @@
 package Array101;
 
 
-import Array101.introduction.SquaresOfSortedArray;
-
-import java.util.Arrays;
+import Array101.inserting.DuplicateZeroes;
 
 public class Main {
     public static void main(String[] args) {
-        SquaresOfSortedArray squaresOfSortedArray = new SquaresOfSortedArray();
-        System.out.println(Arrays.toString(squaresOfSortedArray.sortedSquares(new int[]{-7,-3,2,3,11})));
+        DuplicateZeroes duplicateZeroes = new DuplicateZeroes();
+        duplicateZeroes.duplicateZeros(new int[]{8,4,5,0,0,0,0,7});
     }
 }
