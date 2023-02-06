@@ -1,7 +1,10 @@
-package Array101;
+package Array101.introduction;
 
 /**
- * Time and space complexity
+ * Time Complexity: <b>O(N)</b>
+ * <p>
+ * Space Complexity: <b>O(1)</b>.
+ * @see <a href="https://leetcode.com/problems/max-consecutive-ones">Leetcode problem</a>
  */
 public class MaxConsecutiveOnes {
     public int findMaxConsecutiveOnes(int[] nums) {
