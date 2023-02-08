@@ -1,11 +1,11 @@
 package Array101;
 
-
-import Array101.inserting.DuplicateZeroes;
+import Array101.deleting.RemoveDuplicatesFromSorted;
+import Array101.deleting.RemoveElement;
 
 public class Main {
     public static void main(String[] args) {
-        DuplicateZeroes duplicateZeroes = new DuplicateZeroes();
-        duplicateZeroes.duplicateZeros(new int[]{8,4,5,0,0,0,0,7});
+        RemoveDuplicatesFromSorted removeDuplicatesFromSorted = new RemoveDuplicatesFromSorted();
+        System.out.println(removeDuplicatesFromSorted.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
     }
 }
