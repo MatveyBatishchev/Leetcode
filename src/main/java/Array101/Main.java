@@ -1,10 +1,10 @@
 package Array101;
 
-import Array101.searching.CheckIfNAndItsDoubleExist;
+import Array101.searching.ValidMountainArray;
 
 public class Main {
     public static void main(String[] args) {
-        CheckIfNAndItsDoubleExist checkIfNAndItsDoubleExist = new CheckIfNAndItsDoubleExist();
-        System.out.println(checkIfNAndItsDoubleExist.checkIfExist(new int[]{10,2,5,3}));
+        ValidMountainArray validMountainArray = new ValidMountainArray();
+        System.out.println(validMountainArray.validMountainArray(new int[]{9,8,7,6,5,4,3,2,1,0}));
     }
 }
