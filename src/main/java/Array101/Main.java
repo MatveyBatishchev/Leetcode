@@ -1,11 +1,10 @@
 package Array101;
 
-import Array101.deleting.RemoveDuplicatesFromSorted;
-import Array101.deleting.RemoveElement;
+import Array101.searching.CheckIfNAndItsDoubleExist;
 
 public class Main {
     public static void main(String[] args) {
-        RemoveDuplicatesFromSorted removeDuplicatesFromSorted = new RemoveDuplicatesFromSorted();
-        System.out.println(removeDuplicatesFromSorted.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
+        CheckIfNAndItsDoubleExist checkIfNAndItsDoubleExist = new CheckIfNAndItsDoubleExist();
+        System.out.println(checkIfNAndItsDoubleExist.checkIfExist(new int[]{10,2,5,3}));
     }
 }
