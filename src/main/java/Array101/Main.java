@@ -1,10 +1,12 @@
 package Array101;
 
-import Array101.searching.ValidMountainArray;
+import Array101.in_place.ReplaceElementsWithGreatestRight;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        ValidMountainArray validMountainArray = new ValidMountainArray();
-        System.out.println(validMountainArray.validMountainArray(new int[]{9,8,7,6,5,4,3,2,1,0}));
+        ReplaceElementsWithGreatestRight replaceElementsWithGreatestRight = new ReplaceElementsWithGreatestRight();
+        System.out.println(Arrays.toString(replaceElementsWithGreatestRight.replaceElements(new int[]{7,4})));
     }
 }
