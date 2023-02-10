@@ -1,10 +1,11 @@
 package Array101;
 
-import Array101.in_place.SortArrayByParity;
+import Array101.practice.ThirdMaximumNumber;
 
 public class Main {
     public static void main(String[] args) {
-
+        ThirdMaximumNumber thirdMaximumNumber = new ThirdMaximumNumber();
+        System.out.println(thirdMaximumNumber.thirdMaxThreePointers(new int[]{2,2,3,1}));
     }
 
     public static int[] randomArray() {

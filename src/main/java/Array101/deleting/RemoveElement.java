@@ -9,15 +9,15 @@ package Array101.deleting;
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int i = 0;
-        int last = nums.length;
-        while (i < last) {
+        int lastEl = nums.length;
+        while (i < lastEl) {
             if (nums[i] == val) {
-                nums[i] = nums[last-1];
-                last--;
-            } else {
-                i++;
+                nums[i] = nums[lastEl-1];
+                lastEl--;
+                continue;
             }
+            i++;
         }
-        return last;
+        return lastEl; // example with nums = {1} and val = 1 works as algo will return 0, so 1 in array is ignored
     }
 }
