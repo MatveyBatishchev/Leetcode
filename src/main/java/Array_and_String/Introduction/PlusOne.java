@@ -1,4 +1,4 @@
-package Array_and_String.introduction;
+package Array_and_String.Introduction;
 
 public class PlusOne {
     public int[] plusOne(int[] digits) {

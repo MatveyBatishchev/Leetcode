@@ -1,4 +1,4 @@
-package Array_and_String.introduction;
+package Array_and_String.Introduction;
 
 /**
  * The pivot index is the index where the sum of all the numbers strictly to the left of the index is

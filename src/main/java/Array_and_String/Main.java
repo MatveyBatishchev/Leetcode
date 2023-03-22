@@ -1,14 +1,16 @@
 package Array_and_String;
 
-import Array_and_String.String.AddBinary;
-import Array_and_String.TwoDArray.PascalTriangle;
+import Array_and_String.Conclusion.PascalsTriangleII;
 
 public class Main {
+
     public static void main(String[] args) {
-        AddBinary addBinary = new AddBinary();
-        System.out.println(addBinary.addBinary("11","1"));
+        PascalsTriangleII pascalsTriangleII = new PascalsTriangleII();
+        pascalsTriangleII.getRowMath(13);
     }
 }
+
+
 
 // {1,2,3},
 // {4,5,6},

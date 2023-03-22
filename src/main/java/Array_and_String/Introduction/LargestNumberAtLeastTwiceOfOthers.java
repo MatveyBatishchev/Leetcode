@@ -1,4 +1,4 @@
-package Array_and_String.introduction;
+package Array_and_String.Introduction;
 
 /**
  * Time Complexity: <b>O(n)</b>
